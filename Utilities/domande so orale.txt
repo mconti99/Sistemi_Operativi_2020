@@ -1,0 +1,22 @@
+Le domande dell'orale che mi sono state poste sono il meccanismo di Page Fault e come viene implementato in Linux, Algoritmo Second Chance LRU, Algoritmi di Scheduling del Disco + CSCAN, Linus Elevator e Algoritmo Anticipatorio, Parametri dello Scheduling del Disco,Deadlock e Deadlock Prevenction
+
+lo scheduling del disco in generale, poi quello in Linux e successivamente le differenze tra User Space Allocator e Kernel Space Allocator per quanto riguarda la gestione della memoria in Linux.
+1. Architettura SMP
+2. Scheduling Multiprocessore
+3. Gang Scheduling
+4. Filesystem per SSD
+5. Segmentazione
+6. Deadlock
+7. Confronto sui vari algoritmi di Scheduling della CPU (minor tempo di tunaround, maggiore overhead, ...)
+8. Scheduling del disco e parametri per la valutazione di un buon algoritmo di scheduling (latenza, throughput, ...)
+9. Differenze tra Linus Elevator, Deadline e Anticipatory
+10. Gestione della memoria in Linux
+11. Definizione di starvation
+12. Differenza tra Processo e Thread (e relative differenze nel context switch)
+13. User Level Thread e Kernel Level Thread
+14. Algoritmo di sostituzione delle pagine con seconda chance
+15. Requisiti Mutua Esclusione
+16. Virtualizzazione
+17. Device Drivers
+18. Page fault
+19. Le FAT e la gestione delle tabelle delle pagine invertite

@@ -1,0 +1,5 @@
+RIMOZIONE CODE -> ipcs | awk '{print $2}' |xargs -I {} ipcrm -q {}
+RIMOZIONE SEMAFORI -> ipcs | awk '{print $2}' |xargs -I {} ipcrm -s {}
+RIMOZIONE SHM -> ipcs | awk '{print $2}' |xargs -I {} ipcrm -m {}
+
+METODO LELLO -> ipcrm -a

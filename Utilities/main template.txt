@@ -1,0 +1,30 @@
+//chiave MSG
+//msgget
+if(id_msg<0){perror("errore msgget"); exit(1);}
+
+//chiave SHM
+//shmget
+
+//if
+if(ds_shm<0){perror("errore shmget"); exit(1);}
+
+//shmat
+//if
+if(p==(void*)-1) {perror("errore shmat"); exit(1);}
+
+//chiave SEM
+//semget
+
+//inizializzazione semafori
+
+//deallocazione struttura semaforica
+//deallocazione shm
+return 0
+
+
+monitor:
+init_monitor(&(pc->m), ..);
+..
+wait(NULL);
+remove_monitor(&(pc->m));
+shmctl();

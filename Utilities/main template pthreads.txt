@@ -1,0 +1,22 @@
+MAIN:
+//allocazione memoria heap
+//inizializzazione mutex
+//inizializzazione variabili condtion
+
+//inizializzazione memoria heap
+//inizializzazione attr
+
+//creazione thread
+//join thread
+
+//destroy attr
+//destroy mutex
+//destroy variabili condition
+//liberazione memoria heap
+//pthread_exit
+
+WORKER THREADS:
+void * nome(void *){
+//typecasting
+//elaborazione
+//pthread_exit
